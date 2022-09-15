@@ -1,1 +1,9 @@
+body {
+  font-family: "Philosopher", sans-serif;
+  background-color: rgb(252, 181, 0);
+}
 
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+}

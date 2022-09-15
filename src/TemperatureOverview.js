@@ -1,4 +1,5 @@
 import React from "react";
+import "./TemperatureOverview.css";
 
 export default function TemperatureOverview() {
   let weatherData = {
@@ -22,6 +23,7 @@ export default function TemperatureOverview() {
             <div className="float-left">
               <strong>{weatherData.temperature}</strong>
               <span className="units">
+                {" "}
                 <a href="/">°C</a> | <a href="/">°F</a>
               </span>
             </div>

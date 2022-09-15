@@ -1,0 +1,8 @@
+.Weather {
+  background-color: rgb(250, 189, 207);
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 30px;
+  border: 2px dotted black;
+  border-radius: 5px;
+}

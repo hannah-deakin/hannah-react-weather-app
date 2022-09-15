@@ -7,14 +7,14 @@ export default function App() {
       <div className="container">
         <Weather />
         <footer>
-          This app was coded by Hannah Deakin and is {""}
           <a
             href="https://github.com/hannah-deakin/hannah-react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub
+            Open-sourced code
           </a>
+          {""} by Hannah Deakin
         </footer>
       </div>
     </div>

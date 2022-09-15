@@ -1,11 +1,12 @@
 import React from "react";
+import "./WeatherOverview.css";
 
 export default function WeatherOverview() {
   let weatherData = {
-    city: "Guatemala City",
-    date: "Wed 8th June",
-    time: "11:52",
-    description: "Sunny with clouds",
+    city: "Cartagena",
+    date: "Thu 15th Sep",
+    time: "12:58",
+    description: "Sunny",
   };
   return (
     <div className="WeatherOverview">
