@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Cartagena" />
         <footer>
           <a
             href="https://github.com/hannah-deakin/hannah-react-weather-app"
