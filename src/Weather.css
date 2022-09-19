@@ -54,10 +54,9 @@
   text-transform: capitalize;
 }
 
-.TemperatureOverview .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+.TemperatureOverview .weather-temperature canvas {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .TemperatureOverview .weather-temperature strong {
